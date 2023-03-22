@@ -9,7 +9,7 @@
     },
     "url": "https://github.com/the-qa-company/qEndpoint/releases/download/v1.11.2/qendpoint-cli.zip",
     "extract_dir": "qendpoint-cli-1.11.2",
-    "env_add_path": "qendpoint-cli-1.11.2/bin",
+    "env_add_path": "bin",
     "checkver": {
         "url": "https://github.com/the-qa-company/qEndpoint/releases/latest",
         "regex": "Release ([\\d.]+)"
