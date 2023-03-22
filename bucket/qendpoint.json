@@ -17,10 +17,6 @@
     "autoupdate": {
         "url": "https://github.com/the-qa-company/qEndpoint/releases/download/v$version/qendpoint-cli.zip",
         "extract_dir": "qendpoint-cli-$version",
-        "env_add_path": "qendpoint-cli-$version/bin",
-        "hash": {
-            "url": "https://github.com/the-qa-company/qEndpoint/releases/latest",
-            "regex": "qendpoint-cli.zip : ([a-fA-F0-9]+)$"
-        }
+        "env_add_path": "bin"
     }
 }
