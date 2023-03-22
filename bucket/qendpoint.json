@@ -1,0 +1,26 @@
+{
+    "version": "1.11.0",
+    "description": "A highly scalable RDF triple store with full-text and GeoSPARQL support.",
+    "homepage": "https://github.com/the-qa-company/qEndpoint",
+    "license": "https://github.com/the-qa-company/qEndpoint/blob/master/LICENSE.md",
+    "hash": "sha512:e1547e5a8273de023f747c224707ad548d610fae609910e0a3d38f1d5fe2cc39cb6ac2ec005db11185096df4dcc2ab5e72e3a2bcb32da55cea6be005fc648b52",
+    "suggest": {
+        "JDK": "java/openjdk"
+    },
+    "url": "https://github.com/the-qa-company/qEndpoint/releases/download/v1.11.0/qendpoint-cli.zip",
+    "extract_dir": "qendpoint-cli-1.11.0",
+    "env_add_path": "qendpoint-cli-1.11.0/bin",
+    "checkver": {
+        "url": "https://github.com/the-qa-company/qEndpoint/releases/latest",
+        "regex": "Release ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/the-qa-company/qEndpoint/releases/download/v$version/qendpoint-cli.zip",
+        "extract_dir": "qendpoint-cli-$version",
+        "env_add_path": "qendpoint-cli-$version/bin",
+        "hash": {
+            "url": "https://github.com/the-qa-company/qEndpoint/releases/latest",
+            "regex": "qendpoint-cli.zip : ([a-fA-F0-9]+)$"
+        }
+    }
+}
