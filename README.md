@@ -6,4 +6,6 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 
 ## How do I install these manifests?
 
-To add this bucket, run `scoop bucket add scoop bucket add the-qa-company https://github.com/the-qa-company/scoop-bucket.git`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add the-qa-company https://github.com/the-qa-company/scoop-bucket.git`.
+
+To install, do `scoop install <manifest>`.
